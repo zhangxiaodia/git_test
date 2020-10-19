@@ -1,6 +1,0 @@
-print("test")
-print("add")
-print("add2")
-print("master")
-print("dev")
-print("stash")
