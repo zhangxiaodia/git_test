@@ -30,6 +30,7 @@ while True:
         no = input("输入用户的编号:")
         name = input("输入新增的用户名:")
         tel = input("输入用户的联系方式:")
+        add_record = Address_list()
                 
         add_record(name, tel, no)
 
