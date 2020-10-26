@@ -13,7 +13,7 @@ import os
 
 class Address_list:
     def __init__(self):
-        self.file = "/Users/admin/git_test/test_data/add_list.txt"
+        self.file = "/test_data/add_list.txt"
 
     def open_file(self):
         f = open(self.file)

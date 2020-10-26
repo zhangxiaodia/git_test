@@ -14,7 +14,7 @@ import os, csv
 
 class Address_list:
     def __init__(self):
-        self.file = "/Users/admin/git_test/test_data/test.csv"
+        self.file = "/test_data/test.csv"
 
     def open_file(self):
         with open(self.file, "r+", encoding="utf-8") as f:

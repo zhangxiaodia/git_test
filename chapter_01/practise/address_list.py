@@ -14,7 +14,7 @@ import os
 
 class Address_list:
     def __init__(self):
-        self.file = "/Users/admin/git_test/test_data/add_list.txt"
+        self.file = "/test_data/add_list.txt"
 
     def open_file(self):
         f = open(self.file)
@@ -58,7 +58,7 @@ class Address_list:
 
     def save_record(self):
 
-        file_path = "/Users/admin/git_test/test_data/"
+        file_path = "/test_data/"
 
         try:
             f = open(file_path+"add_list.txt", "r+", encoding='utf-8')
